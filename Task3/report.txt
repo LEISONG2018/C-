@@ -1,0 +1,3 @@
+When we need to override member function in the derived class. Because virtual function can only be overided in derived class.
+It means when we call the function form base class and dervied class, we will get different results.
+In this condition, we should use virtual function.

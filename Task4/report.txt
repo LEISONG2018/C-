@@ -1,0 +1,4 @@
+For this project. I guess, if we use pointer to allocate dynamic memory, it will work well for passing by value directly. Because in the constructor, we use char* as parameters.
+But if we want to pass between objects, it doesn't work. There are no constuctor for initialization and member function for pass by reference. 
+And when we want to pass the objects with pointer, we do need to delete str first. If we don't, we may meet memory leak. 
+Because the memory still be allocated, we just change pointer to another memory. 
